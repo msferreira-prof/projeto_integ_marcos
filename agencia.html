@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoViagens - Agência de Turismo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!--Cabeçalho PrincipaL-->
+    <header class="hero2">
+        <h1>Eco<span class="destaque-verde">Viagens</span></h1>
+        <nav class="menu-navegação" >
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">destinos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--secção principal - Boa vindas-->
+    <section class="hero">
+        <div class="container-centro">
+            <h2>Explore o Mundo Conosco</h2>
+            <p>Conectamos você aos destinos mais bonitos e preservados do planeta. Viva uma experiência inesquecível em
+                harmonia com a natureza.
+            </p>
+            <button>Quero Viajar</button>
+        </div>
+    </section>
+
+    <hr>
+
+    <!--secção principal - Boa vindas-->
+    <section>
+        <div>
+            <h2>Destinos Populares</h2>
+
+            <!--Card 1-->
+            <article>
+                <h3>Fernando de Noronha</h3>
+                <p>Mergulhe em águas cristalinas e descubra a rica faunamarinha brasileira.</p>
+                <ul>
+                    <li>Praias isoladas</li>
+                    <li>Passeios de barco</li>
+                    <li>Trilhas ecológicas</li>
+                </ul>
+            </article>
+
+            <!--Card 2-->
+            <article>
+                <h3>Amazonia</h3>
+                <p>Explore a maior biodiversidade do mundo em uma imersão na floresta tropical.</p>
+                <ul>
+                    <li>Hospedagem na selva</li>
+                    <li>Fotografia noturna</li>
+                    <li>Visita a comunidades</li>
+                </ul>
+            </article>
+
+            <!--Card 3-->
+            <article>
+                <h3>Chapada Diamantina</h3>
+                <p>Aventure-se por cachoeiras majestosas, grutas profundas emirantes naturais.</p>
+                <ul>
+                    <li>Rapel e escalada</li>
+                    <li>Cacheiras gigantes</li>
+                    <li>Grutas coma águas azuis</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <hr>
+    <!--Card 3-->
+    <section>
+        <fieldset>
+            <legend>Reserver a sua próxima aventura<legend>              
+            <form>
+                <label> Seu nome:</label>
+                <input type="text"name="nome" placeholder="Digite o seu nome completo"required>
+                <label> Seu E-mail:</label>
+                <input type="name"placeholder="Seu melhor E-mail"required>
+                <label> Selecione seu destino:</label>
+                <select name="destino - escolhido">
+                    <option value="Noronha">Fernando de Noronha</option>
+                    <option value="Amazonia">Amazonia</option>
+                    <option value="Chapada">Chapada Diamantina</option>
+                                      
+                </select>
+                <label> Mensagem e/ou observações</label>
+                <textarea name="mensagem"row="5" placeholder="Algum pedido especial?"></textarea>
+                <input type="submit" value="Enviar solicitação">
+
+            </form>
+        </fieldset>
+    </section>
+<footer>
+    <p> Contato: contato@EcoViagens.com.br</p>
+</footer>
+</body>
+</html>
